@@ -9,4 +9,4 @@ This is a simple chat demo by using Node.js and Socket.IO.
 **Installation tutorial:**
 [http://www.plhwin.com/2014/05/28/nodejs-socketio/](http://www.plhwin.com/2014/05/28/nodejs-socketio/)
 
-if this demo is useful to you,welcome you to *follow me* on Github,thanks!
+if this demo is useful to you,welcome you to **follow me** on Github,thanks!
