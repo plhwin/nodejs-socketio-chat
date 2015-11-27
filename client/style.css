@@ -248,7 +248,8 @@ body {
 .message {
   border-bottom:0;
   background-color:#efeff4;
-  min-height:300px;
+  /*min-height:300px;*/
+  padding-bottom: 100px;
 }
 .message section a{
   /*white-space:nowrap*/
@@ -404,7 +405,7 @@ header {
   font-weight:normal;
 	font-size:14px;
 	color:#f60;
-	 max-width: 45px;
+	 max-width: 60px;
     height: 36px;
 	overflow: hidden;
 	float: right;
@@ -416,7 +417,7 @@ header {
   font-weight:700;
 }
 .service>span{
-    max-width: 45px;
+    max-width: 60px;
     height: 36px;
 	/*
     background: url("https://i.alipayobjects.com/i/ecmng/png/201404/2O35FCjByn.png");
@@ -511,11 +512,13 @@ time {
   display:-webkit-box;
   display:-ms-flexbox;
   display:-moz-box;
-  position:relative;
+  position:fixed;
+  bottom: 0;
   padding:8px 10px;
   width:100%;
   box-shadow:0 0 1px #000;
   background-color:#fff;
+  height: 100px;
 }
 
 .input-box .input {
@@ -524,15 +527,16 @@ time {
   -moz-box-flex:1;
   background-color:#fff;
    -webkit-box-flex:1;
-   height: 28px;
+  /*height: 28px;*/
   line-height:25px;
 }
 
 .input input {
 	margin:0;
+	float: left;
 	padding:0 6px;
 	height:28px;
-	width:100%;
+	width:93%;
 	font-size:14px;
 	background-color: #fbfbfb;
 	border:none;
@@ -548,7 +552,8 @@ time {
 
 .input-box button {
   font-size: 15px;
-  margin-left:11px;
+  /*margin-left:11px;*/
+ float: right;
 }
 
 section.robot>.robot-comment {

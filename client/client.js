@@ -93,7 +93,7 @@
 			this.username = username;
 			
 			d.getElementById("showusername").innerHTML = this.username;
-			this.msgObj.style.minHeight = (this.screenheight - db.clientHeight + this.msgObj.clientHeight) + "px";
+			//this.msgObj.style.minHeight = (this.screenheight - db.clientHeight + this.msgObj.clientHeight) + "px";
 			this.scrollToBottom();
 			
 			//连接websocket后端服务器
